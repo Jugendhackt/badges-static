@@ -71,10 +71,16 @@ events.forEach((event) => {
             </svg>
         `
         event.codes.forEach((code) => {
-            console.log(`Writing to "${__dirname + "/" +  code + "/" +  year + "/index.svg"}"...`)
-            ensureDirectoryExistence(__dirname + "/" +  code)
-            ensureDirectoryExistence(__dirname + "/" +  code + "/" +  year)
-            fs.writeFileSync(__dirname + "/" +  code + "/" +  year + "/index.svg", svg)  
+            console.log(`Ensuring directory existence ("${__dirname + "/" + code}")...`)
+            if (!fs.existsSync(__dirname + "/" + code)){
+                fs.mkdirSync(__dirname + "/" + code);
+            }
+            console.log(`Ensuring directory existence ("${__dirname + "/" +  code + "/" +  year}")...`)
+            if (!fs.existsSync(__dirname + "/" +  code + "/" +  year)){
+                fs.mkdirSync(__dirname + "/" +  code + "/" +  year);
+            }
+            console.log(`Writing to "${__dirname + "/" +  code + "/" + year + "/index.svg"}"...`)
+            fs.writeFileSync(__dirname + "/" +  code + "/" + year + "/index.svg", svg)  
         })
     })
 })
