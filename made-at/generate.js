@@ -56,7 +56,7 @@ events.forEach((event) => {
 
     years.forEach((year) => {
         const svg = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="250" height="20" viewBox="0 0 250 20">
+            <svg xmlns="http://www.w3.org/2000/svg" width="${event.width}" height="20" viewBox="0 0 250 20">
                 <title>JH-${event.name} Badge</title>
                 <a href="https://jugendhackt.org">
                     <rect x="0" y="0" width="136" height="20" style="fill:#555"/>

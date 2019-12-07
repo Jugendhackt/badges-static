@@ -2,6 +2,7 @@ module.exports = [
     {
         name: "Berlin",
         color: "2aabe1",
+        width: 231,
         codes: [
             "ber",
             "berlin",
@@ -10,18 +11,7 @@ module.exports = [
     {
         name: "Frankfurt",
         color: "5d6eb2",
-        codes: [
-            "frankfurt",
-            "frankfurt-main",
-            "frankfurtmain",
-            "frankfurtammain",
-            "frankfurt-am-main",
-            "ffm",
-        ]
-    },
-    {
-        name: "Frankfurt",
-        color: "5d6eb2",
+        width: 250,
         codes: [
             "frankfurt",
             "frankfurt-main",
@@ -34,6 +24,7 @@ module.exports = [
     {
         name: "Halle",
         color: "FFE712",
+        width: 226,
         codes: [
             "hal",
             "halle",
@@ -42,6 +33,7 @@ module.exports = [
     {
         name: "Hamburg",
         color: "22B573",
+        width: 250,
         codes: [
             "hamburg",
             "hh",
@@ -50,6 +42,7 @@ module.exports = [
     {
         name: "Heidelberg",
         color: "e74712",
+        width: 259,
         codes: [
             "hd",
             "heidelberg",
@@ -58,6 +51,7 @@ module.exports = [
     {
         name: "Köln",
         color: "2E3192",
+        width: 224,
         codes: [
             "köln",
             "koeln",
