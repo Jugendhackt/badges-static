@@ -38,5 +38,32 @@ module.exports = [
             "hal",
             "halle",
         ]
+    },
+    {
+        name: "Hamburg",
+        color: "22B573",
+        codes: [
+            "hamburg",
+            "hh",
+        ]
+    },
+    {
+        name: "Heidelberg",
+        color: "e74712",
+        codes: [
+            "hd",
+            "heidelberg",
+        ]
+    },
+    {
+        name: "Köln",
+        color: "2E3192",
+        codes: [
+            "köln",
+            "koeln",
+            "cologne",
+            "kln",
+            "cgn",
+        ]
     }
 ]
