@@ -30,5 +30,13 @@ module.exports = [
             "frankfurt-am-main",
             "ffm",
         ]
+    },
+    {
+        name: "Halle",
+        color: "FFE712",
+        codes: [
+            "hal",
+            "halle",
+        ]
     }
 ]
